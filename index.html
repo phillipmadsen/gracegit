@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="robots" content="noodp, noydir" />
+
+	<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+	<link rel="canonical" href="http://mysite.com/" />
+	<link rel="stylesheet" href="http://mysite.com/style.css" type="text/css" />
+	<link rel="alternate" href="http://feeds.feedburner.com/feed" type="application/rss+xml" title="Direct Feed"/>
+	<link rel="shortcut icon" href="http://mysite.com/images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" href="http://mysite.com/images/apple-retina.png" sizes="114x114" />
+	<link rel="apple-touch-icon-precomposed" href="http://mysite.com/images/apple-ipad.png" sizes="72x72" />
+	<link rel="apple-touch-icon" href="http://mysite.com/images/apple-touch.png" />
+	<link rel="next" href="page2.php" />
+
+	<title>MySite.com</title>
+	<meta name="description" content="mysite html5 framework with scheme.org" />
+	<meta name="keywords" content="html5, schema.org" />
+
+	<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Google Analytics Code -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+		 	_gaq.push(['_setAccount', 'UA-XXXXXXXX-XX']);
+			_gaq.push(['_trackPageview']);
+			_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script> 
+	<!-- Google ANalytics Code --> 
+</head>
+<body class="home" itemscope itemtype="http://schema.org/WebPage">
+	<div id="wrap" class="site-container">
+		
+		<header class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+			<div class="wrap">
+				<div class="title-area">
+					<h1 class="site-title" itemprop="headline">Site Name</h1>
+					<h2 class="site-description" itemprop="description">Site Description</h2>
+				</div>
+			</div>
+		</header><!-- .site-header -->
+
+		<nav class="site-navigation nav-primary" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+			<div class="wrap">
+				<ul class="site-nav-menu">
+					<li class="menu-item menu-item-1 menu-home" itemprop="url"><a href="http://mysite.com/" title="Home" itemprop="name">Home</a></li>
+					<li class="menu-item menu-item-2 menu-about" itemprop="url"><a href="http://mysite.com//about.php" title="About" itemprop="name">About</a></li>
+				</ul>
+			</div>
+		</nav><!--.site-navigation -->
+
+		<div class="site-inner">
+			<main class="site-content" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+
+				<article class="post entry" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+					<header class="entry-header">
+						<h1 class="entry-title" itemprop="headline"><a href="http://mysite.com/post" title="Blog Post" rel="bookmark">Blog Post</a></h1> 
+						<p class="entry-meta"><time class="entry-time" itemprop="datePublished" datetime="2012-01-07T07:07:21+00:00">January 7, 2012</time> by 
+							<span class="entry-author" itemprop="author" itemscope itemptype="http://schema.org/Person">
+								<a href="http://mysite.com/author" class="entry-author-link" itemprop="url" rel="author">
+									<span class="entry-author-name" itemprop="name">Author Name</span>
+								</a>
+							</span>
+						</p>
+					</header>
+					<div class="entry-content" itemprop="text">
+						<p>This is a blog post.</p>
+					</div>
+					<footer class="entry-footer">
+						<p class="entry-meta">
+							<span class="entry-categories">Filed Under: <a href="http://mysite.com/the-category" title="View all posts in Category" rel="category">The Category</a></span>
+							<span class="entry-tags">Tagged With: <a href="http://mysite.com/?tag=tag-1" rel="tag">tag 1</a>, <a href="http://mysite.com/?tag=tag-2" rel="tag">tag 2</a></span>
+						</p>
+					</footer>
+				</article><!-- .post -->
+				
+			 
+
+				<ul class="pagination" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					<li class="active" itemprop="url"><a class="more" href="index.php" itemprop="name">1</a></li>
+					<li itemprop="url"><a rel="next" class="more" href="page2.php" itemprop="name">2</a></li>
+					<li itemprop="url"><a  class="more" href="page3.php" itemprop="name">3</a></li>
+					<li itemprop="url"><a class="more next" href="page2.php" itemprop="name">Next &gt;</a></li>
+				</ul>
+
+			</main><!-- .site-content -->
+
+			<aside class="site-sidebar sidebar-primary widget-area" role="complementary" itemscope itemtype="http://schema.org/WPSideBar">
+				<div class="widget widget_text">
+					<div class="widget-wrap">
+						<h4 class="widgettitle">file time</h4>
+						<div class="textwidget">
+							<p>9:40 am</p>
+						</div>
+					</div>
+				</div>
+			</aside><!-- .site-sidebar -->
+
+		</div><!-- .site-inner -->
+
+		<footer class="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="wrap">
+				<p class="back-to-top"><a title="Back to top" href="#wrap">Back to top</a></p>
+				<p class="creds">&copy; Copyright 2012-2013 MySite.com | <a title="RSS Feed" href="http://feeds.feedburner.com/feed">RSS</a> | <a title="Subscribe via Email" href="http://feedburner.google.com/fb/a/mailverify?uri=feed" target="_blank">Subscribe via Email</a></p>
+			</div>
+		</footer><!-- .site-footer -->
+
+	</div><!-- .site-container -->
+
+	<!-- Footer JavaScripts -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<!-- Footer JavaScripts -->
+</body>
+</html>
